@@ -1,7 +1,0 @@
-{
-  "name": "ဂညန်းကိရိယာ",
-  "version": "1.0.0",
-  "description": "Basic math helpers (square, double) for Akkhara programs.",
-  "author": "XhaStudio",
-  "entry": "main.akk"
-}
