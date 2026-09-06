@@ -1,0 +1,23 @@
+# Akkhara library package: ဂညန်းကိရိယာ (Math Tools)
+#
+# Usage from a program:
+#     နည်းပညာများ ဂညန်းကိရိယာ ကို အသုံးပြုပါ။
+#
+# Akkhara functions are single-argument and have no "return" statement --
+# they can only produce output as a side effect. The convention this
+# package (and any package you publish) should follow is: write the
+# result into a global variable named "ရလဒ်" (result), which the caller
+# reads right after calling the function.
+#
+# Example:
+#     နည်းပညာများ ဂညန်းကိရိယာ ကို အသုံးပြုပါ။
+#     စတုရန်း ကို လုပ်ရန် 5 ဖြင့်။
+#     ရလဒ် ကို ဖော်ပြပါ။          # prints 25
+
+လုပ်ငန်း စတုရန်း အတွက် x ဖြင့်
+    ရလဒ် သည် x * x ဖြစ်၏။
+ပြီး။
+
+လုပ်ငန်း နှစ်ဆ အတွက် x ဖြင့်
+    ရလဒ် သည် x * 2 ဖြစ်၏။
+ပြီး။
